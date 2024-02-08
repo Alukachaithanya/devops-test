@@ -66,3 +66,6 @@ def main():
     pr = create_pull_request(repo_owner, repo_name, base_branch="main", head_branch=branch_name, title=pr_title, body=pr_body, access_token=access_token)
     print(f"Pull request raised for changes in branch: {branch_name}")
     print(f"Pull request URL: {pr.html_url}")
+
+if __name__ == "__main__":
+    main()
