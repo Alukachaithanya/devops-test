@@ -1,1 +1,1 @@
-nginx_image = "alukachai/nginx:v1"
+nginx_image = "alukachai/nginx:v2"
